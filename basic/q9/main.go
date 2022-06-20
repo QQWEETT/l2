@@ -9,6 +9,11 @@ import (
 	"path"
 )
 
+/*
+=== Утилита wget ===
+Реализовать утилиту wget с возможностью скачивать сайты целиком
+*/
+
 func download(url, filename string) (err error) {
 	fmt.Println("Downloading ", url, " to ", filename)
 
